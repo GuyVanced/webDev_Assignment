@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an Appointment</title> 
+    <link rel="stylesheet" href="../css/appointment.css">
+</head>
+<body>
+    <!-- Header for Navbar -->
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar" id="main-navbar">
+            <div class="logo-section">
+                <img src="../Images/clear1.png" alt="Mental Health Website Logo" class="logo-image">
+            </div>
+            <div class="nav-buttons">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="index.html">Services</a></li>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="index.html">FAQ</a></li>
+                </ul>
+                <a href="#contact" class="btn-contact">Get Started</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="appointment-section">
+            <div class="left-pane">
+                <h2>Appointment</h2>
+                <p class="subheading">"Book today, take a step toward better well-being."</p>
+
+                <form class="appointment-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <span class="error" id="nameError"></span>
+
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <span class="error" id="emailError"></span>
+
+                    <label for="phone">Your Phone</label>
+                    <input type="text" id="phone" placeholder="Phone Number" required>
+                    <span class="error" id="phoneError"></span>
+
+                    <div class="select-group">
+                        <div>
+                            <label for="services">Select Services</label>
+                            <select id="services" required>
+                                <option>Select Service</option>
+                                <option>Online Counseling</option>
+                                <option>Mental Therapy</option>
+                                <option>Meditation</option>
+                            </select>
+                            <span class="error" id="servicesError"></span>
+                        </div>
+                        <div>
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" required>
+                            <span class="error" id="dateError"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="appointment-btn">Book an Appointment</button>
+                </form>
+            </div>
+
+            <div class="right-pane">
+                <h3>Make an <span>Appointment</span></h3>
+                <ul class="contact-info">
+                    <li><img src="../Images/contact.png" alt="Phone Icon"> +977 9840968897</li>
+                    <li><img src="../Images/address.png" alt="Location Icon"> Balaju, Kathmandu</li>
+                    <li><img src="../Images/opening_hours.png" alt="Clock Icon"> Monday - Saturday (10:00 AM - 09:00 PM) <br> Sunday (Closed)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">> Home</a></li>
+                    <li><a href="index.html">> About Us</a></li>
+                    <li><a href="index.html">> Services</a></li>
+                    <li><a href="index.html">> Discover</a></li>
+                    <li><a href="index.html">> FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: clearthougts@gmail.com</p>
+                <p>Phone: +977 9840968897</p>
+                <p>Address: Balaju, Kathmandu, NEPAL</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../Images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../Images/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../Images/skill-icons_instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mental Health Awareness | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="../scripts/appointment.js" defer></script> <!-- Link to external JS -->
+</body>
+</html>

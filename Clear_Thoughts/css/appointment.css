@@ -1,0 +1,352 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive Navbar */
+nav.navbar {
+    background-color: #649CB4; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    margin: 0;
+    padding: 0 80px;
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffeb3b;
+}
+
+.btn-contact {
+    background-color: #C99E51;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #b08446;
+}
+main {
+    padding: 50px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e7ec;
+}
+
+main {
+    padding: 0; 
+}
+
+.appointment-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+   
+    background: linear-gradient(135deg, #5f8aa7, #2d4d5e); /* Gradient background */
+    color: white;
+    margin-top: 0; 
+}
+
+.left-pane {
+    flex: 1;
+    margin-right: 30px;
+    padding-left: 150px; 
+}
+
+.left-pane h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.appointment-form input, 
+.appointment-form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    width: 85%; 
+}
+
+.select-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-group div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.select-group div:last-child {
+    margin-right: 75px;
+}
+
+.appointment-btn {
+    background-color: #c99e51;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px; 
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.appointment-btn:hover {
+    background-color: #b88c47;
+}
+
+.right-pane {
+    flex: 1;
+    margin-top: 150px; 
+    color: white;
+}
+
+.right-pane h3 {
+    font-size: 26px; 
+    margin-bottom: 20px;
+}
+
+.right-pane h3 span {
+    color: #c99e51;
+}
+
+.contact-info {
+    list-style: none;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+    font-size: 18px; 
+}
+
+.contact-info li img {
+    width: 28px; 
+    height: 28px;
+    margin-right: 10px;
+}
+
+.contact-info li span {
+    color: #c99e51;
+}
+
+
+header, footer {
+    margin-bottom: 0;
+}
+
+
+/* Footer Section */
+.footer {
+    background: linear-gradient(90deg, #3D4F60 10%, #649CB4 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffeb3b;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .appointment-section {
+        max-width: 90%;
+    }
+
+    .footer-column {
+        flex-basis: 45%;
+    }
+
+    .appointment-section h1 {
+        font-size: 30px;
+    }
+
+    .appointment-section h3 {
+        font-size: 20px;
+    }
+
+    .appointment-section button {
+        max-width: 100%; /* Full-width button on small screens */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack navbar links vertically */
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-column {
+        flex-basis: 100%; 
+        text-align: center;
+    }
+
+    .appointment-section h1 {
+        font-size: 26px;
+    }
+
+    .appointment-section h3 {
+        font-size: 18px;
+    }
+
+    .appointment-section {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .social-icons {
+        justify-content: space-around;
+    }
+}
